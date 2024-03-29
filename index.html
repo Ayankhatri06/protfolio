@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="./project.js"></script>
+    <script src="./formvalidation.js"></script>
+
+
+</head>
+
+<body>
+    <header>
+        <h1>Mohamed Ayan Khatri</h1>
+        <nav>
+            <ul>
+                <li><a href="#introduction">Introduction</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="introduction">
+        <h2>Introduction</h2>
+    <p>Welcome to my personal portfolio webpage! I'm excited to introduce myself as a new web developer looking to make a difference in the digital world. With a passion for building interesting and user-friendly web experiences, I've gone on this journey to highlight my web development abilities, projects, and successes. Through this platform, I hope to demonstrate my expertise in front-end and back-end technologies, as well as my dedication to ongoing study and progress in the ever-changing world of web development. Join me as I discover the limitless potential of the digital world and begin on intriguing new endeavors.
+        </p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div id="project-list">
+            <!-- Project elements will be dynamically generated here -->
+        </div>
+    </section>
+
+    <section id="skillsSection">
+        <h2>Skills</h2>
+        <p id="skills">Skills here</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form id="contact-form" action="#" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+        <div id="form-message"></div>
+    </section>
+
+
+</body>
+
+</html>
